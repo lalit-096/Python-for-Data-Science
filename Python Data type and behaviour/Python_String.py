@@ -1,6 +1,7 @@
 #Program to know the properties of string in python
 
-''' Strings in python are ordered sequence of characters, 
+''' 
+    Strings in python are ordered sequence of characters, 
     array of bytes representing the unicode characters,
     they can be represented using single, double or triple quotes,
     Strings in Python are immutable
@@ -10,10 +11,6 @@
     NEGATIVE INDEXING:
     We can also use the negative index to access the character, i.e. x[-1] for the last element
 '''
-
-
-from traceback import print_tb
-
 
 x = "Welcome to python programming"
 print(x)
@@ -93,3 +90,26 @@ print(g)
 #str.replace() to replace the given keyword with the new one
 h = x.replace('come', 'Doom')
 print(h)
+
+#strigs can be concatenated :
+x = "Hii"
+y = "Python"
+
+#print(x+" "+y)
+
+#Repeatition of character of string or whole string:
+print(x * 10)
+print(y * 10)
+
+#String spliting:
+x = "Hii, I am a Sandbox Dev"
+print(x.split(' '))
+print(x.split(','))
+
+#Strings can be compared:
+x = 'John'
+y = 'Deer'
+
+print(x == y)
+print(x != y)
+print(x == x)
